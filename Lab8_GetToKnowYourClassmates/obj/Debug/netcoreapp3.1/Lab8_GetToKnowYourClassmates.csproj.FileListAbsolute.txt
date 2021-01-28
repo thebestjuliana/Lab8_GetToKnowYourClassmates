@@ -1,0 +1,13 @@
+C:\Users\sheeh\source\repos\Lab8_GetToKnowYourClassmates\Lab8_GetToKnowYourClassmates\bin\Debug\netcoreapp3.1\Lab8_GetToKnowYourClassmates.exe
+C:\Users\sheeh\source\repos\Lab8_GetToKnowYourClassmates\Lab8_GetToKnowYourClassmates\bin\Debug\netcoreapp3.1\Lab8_GetToKnowYourClassmates.deps.json
+C:\Users\sheeh\source\repos\Lab8_GetToKnowYourClassmates\Lab8_GetToKnowYourClassmates\bin\Debug\netcoreapp3.1\Lab8_GetToKnowYourClassmates.runtimeconfig.json
+C:\Users\sheeh\source\repos\Lab8_GetToKnowYourClassmates\Lab8_GetToKnowYourClassmates\bin\Debug\netcoreapp3.1\Lab8_GetToKnowYourClassmates.runtimeconfig.dev.json
+C:\Users\sheeh\source\repos\Lab8_GetToKnowYourClassmates\Lab8_GetToKnowYourClassmates\bin\Debug\netcoreapp3.1\Lab8_GetToKnowYourClassmates.dll
+C:\Users\sheeh\source\repos\Lab8_GetToKnowYourClassmates\Lab8_GetToKnowYourClassmates\bin\Debug\netcoreapp3.1\Lab8_GetToKnowYourClassmates.pdb
+C:\Users\sheeh\source\repos\Lab8_GetToKnowYourClassmates\Lab8_GetToKnowYourClassmates\obj\Debug\netcoreapp3.1\Lab8_GetToKnowYourClassmates.csprojAssemblyReference.cache
+C:\Users\sheeh\source\repos\Lab8_GetToKnowYourClassmates\Lab8_GetToKnowYourClassmates\obj\Debug\netcoreapp3.1\Lab8_GetToKnowYourClassmates.AssemblyInfoInputs.cache
+C:\Users\sheeh\source\repos\Lab8_GetToKnowYourClassmates\Lab8_GetToKnowYourClassmates\obj\Debug\netcoreapp3.1\Lab8_GetToKnowYourClassmates.AssemblyInfo.cs
+C:\Users\sheeh\source\repos\Lab8_GetToKnowYourClassmates\Lab8_GetToKnowYourClassmates\obj\Debug\netcoreapp3.1\Lab8_GetToKnowYourClassmates.csproj.CoreCompileInputs.cache
+C:\Users\sheeh\source\repos\Lab8_GetToKnowYourClassmates\Lab8_GetToKnowYourClassmates\obj\Debug\netcoreapp3.1\Lab8_GetToKnowYourClassmates.dll
+C:\Users\sheeh\source\repos\Lab8_GetToKnowYourClassmates\Lab8_GetToKnowYourClassmates\obj\Debug\netcoreapp3.1\Lab8_GetToKnowYourClassmates.pdb
+C:\Users\sheeh\source\repos\Lab8_GetToKnowYourClassmates\Lab8_GetToKnowYourClassmates\obj\Debug\netcoreapp3.1\Lab8_GetToKnowYourClassmates.genruntimeconfig.cache
