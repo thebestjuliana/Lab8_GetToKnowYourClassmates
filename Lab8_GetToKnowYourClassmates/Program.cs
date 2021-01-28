@@ -9,10 +9,10 @@ namespace Lab8_GetToKnowYourClassmates
         //Juliana Sheehan
         //Provides info on students in a class
         //Prompts user to ask about students
-        //gibes proper responses according to usersubmitted information
+        //gives proper responses according to usersubmitted information
         //account for invalid user inputs with exceptions
         //try to IndexOutOfRangeException and FormatException
-        //Include more than 2 pieces of info about the student
+        //Include more than 2 pieces of info about the student (I made up the third piece of info)
         //Allow the user to search for a student by name as well as number. 
         static void Main(string[] args)
         {
@@ -63,18 +63,18 @@ namespace Lab8_GetToKnowYourClassmates
 
             List<string> pet = new List<string>();
             pet.Add("would like a dog");
-            pet.Add("'s pets are unknown");
+            pet.Add("has a pet penguin");
             pet.Add("has a dog");
             pet.Add("has cats");
             pet.Add("has a dog");
-            pet.Add("'s pets are unknown");
-            pet.Add("'s pets are unknown");
+            pet.Add("has an iguana");
+            pet.Add("has a dove");
             pet.Add("'s pets are unknown");
             pet.Add("has cats and dogs");
-            pet.Add("'s pets are unknown");
-            pet.Add("'s pets are unknown");
-            pet.Add("'s pets are unknown");
-            pet.Add("'s pets are unknown");
+            pet.Add("has a frog");
+            pet.Add("has a ferret");
+            pet.Add("has pet plants");
+            pet.Add("has a pet moon rock");
 
 
 
@@ -98,13 +98,15 @@ namespace Lab8_GetToKnowYourClassmates
 
                 Console.WriteLine($"Student {indexOfRequestedStudent + 1} is {requestedStudent}.");
 
-
+                //Ask user for a category they'd like to know about
                 Console.WriteLine($"What would you like to know about {requestedStudent} (enter 'hometown' or 'favorite food' or 'pets')");
                 int interestedIn = InterestValidation();
 
-
+                //give info about student and requested category
                 TellMeAboutThem(interestedIn, requestedStudent, hometownOfRequestedStudent, favFoodOfRequestedStudent, petOfRequestedStudent);
                 bool validAnswer = false;
+
+                //ask if they want to know about another student
                 while (validAnswer == false)
                 {
                     Console.WriteLine("Would you like to know about another student?");
@@ -152,7 +154,7 @@ namespace Lab8_GetToKnowYourClassmates
 
                 try
                 {
-                    if (inputGreaterThanStudents)
+                    if (inputIsNumber && inputGreaterThanStudents)
                     {
                         throw new Exception("Index Out of Range");
 
@@ -177,7 +179,7 @@ namespace Lab8_GetToKnowYourClassmates
                 {
                     Console.WriteLine("Invalid input");
                     Console.WriteLine(e.Message);
-                    Console.WriteLine("lets's try again");
+                    Console.WriteLine($"Lets's try again Which student would you like to learn more about (1-{numberOfStudents} or full name)");
                     continue;
                 }
 
@@ -219,7 +221,7 @@ namespace Lab8_GetToKnowYourClassmates
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message);
-                    Console.WriteLine("Enter 'hometown' or 'favorite food'");
+                    Console.WriteLine("Enter 'hometown' or 'favorite food' or 'pets'");
                     continue;
                 }
 
@@ -243,7 +245,7 @@ namespace Lab8_GetToKnowYourClassmates
                 {
                     Console.WriteLine($"{requestedStudent} {petOfRequestedStudent}.");
                 }
-            
+            //see if the user wants to know more stuff about the student
                 Console.WriteLine($"Would you like to know more about {requestedStudent}(y/n)");
                 string answer = Console.ReadLine().ToLower();
                 try
@@ -267,7 +269,7 @@ namespace Lab8_GetToKnowYourClassmates
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message);
-                    Console.WriteLine("try again");
+                    Console.WriteLine($"try again. Would you like to know more about {requestedStudent}? (y/n)");
                 }
             }
         }
